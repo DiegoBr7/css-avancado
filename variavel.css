@@ -1,0 +1,23 @@
+:root{
+ --var_color : aqua ;
+ --var-squire-size : 300px;
+ }
+     .p2{
+      color:var(--var_color) ;
+      font-size: 25px ;
+     }
+
+     .p3{
+        color:var(--var_color) ;
+        font-size: 15px ;
+    }
+ .sqr1{
+     width:var(--var-squire-size) ;
+     height:var(--var-squire-size) ;
+     background-color: darkblue;
+ }
+ .sqr2{
+    width:var(--var-squire-size) ;
+    height:var(--var-squire-size) ;
+    background-color:darkcyan;
+}
