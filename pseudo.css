@@ -1,0 +1,22 @@
+ input:focus{
+   color: red
+}
+ul{
+margin: 0;
+padding: 0;
+}
+li{
+
+list-style: none;
+font-family: 'Courier New', Courier, monospace;
+font-size: 30px;
+
+}
+ li:nth-of-type(even){
+     background-color: green;
+    
+ }
+ li:nth-of-type(odd){
+    background-color: blue;
+   
+}
